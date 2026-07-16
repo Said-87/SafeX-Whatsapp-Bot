@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SafeX WhatsApp Business Bot</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='css/style.css') }}">
+
+</head>
+
+<body>
+
+<div class="app">
+
+    <!-- ================= Sidebar ================= -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+
+            <i class="fa-brands fa-whatsapp"></i>
+
+            <div>
+
+                <h2>SafeX</h2>
+
+                <span>WhatsApp Bot</span>
+
+            </div>
+
+        </div>
+
+        <nav>
+
+            <button class="nav-btn active" data-page="chat">
+
+                <i class="fa-solid fa-comments"></i>
+
+                <span>Chat</span>
+
+            </button>
+
+            <button class="nav-btn" data-page="analytics">
+
+                <i class="fa-solid fa-chart-line"></i>
+
+                <span>Analytics</span>
+
+            </button>
+
+            <button class="nav-btn" data-page="leads">
+
+                <i class="fa-solid fa-address-book"></i>
+
+                <span>Leads</span>
+
+            </button>
+
+            <button class="nav-btn" data-page="settings">
+
+                <i class="fa-solid fa-gear"></i>
+
+                <span>Settings</span>
+
+            </button>
+
+        </nav>
+
+    </aside>
+
+    <!-- ================= Main ================= -->
+
+    <main class="main">
+
+        <!-- Header -->
+
+        <header class="header">
+
+            <div>
+
+                <h1>SafeX WhatsApp Business Bot</h1>
+
+                <p>Automated Customer Support</p>
+
+            </div>
+
+            <div class="status">
+
+                <span class="dot"></span>
+
+                Connected
+
+            </div>
+
+        </header>
+
+        <!-- ================= CHAT ================= -->
+
+        <section id="chat" class="page active">
+
+            <div class="chat-window">
+
+                <div class="chat-header">
+
+                    <div class="bot-avatar">
+
+                        🤖
+
+                    </div>
+
+                    <div>
+
+                        <h3>SafeX Bot</h3>
+
+                        <small>Online</small>
+
+                    </div>
+
+                </div>
+
+                <div class="messages" id="chatBox">
+
+                    <div class="message bot">
+
+                        👋 Welcome to SafeX.
+
+                        <br><br>
+
+                        Ask me about:
+
+                        <ul>
+
+                            <li>Services</li>
+                            <li>Pricing</li>
+                            <li>Internships</li>
+                            <li>Contact</li>
+
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="typing" id="typing">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="input-box">
+
+                    <input
+
+                        type="text"
+
+                        id="messageInput"
+
+                        placeholder="Type your message..."
+
+                    >
+
+                    <button id="sendBtn" type="button" aria-label="Send message">
+
+                        <i class="fa-solid fa-paper-plane"></i>
+
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Analytics ================= -->
+
+        <section id="analytics" class="page">
+
+            <h2>Analytics</h2>
+
+            <div class="cards">
+
+                <div class="card">
+
+                    <h3>Total Chats</h3>
+
+                    <h1 id="totalChats">0</h1>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Successful Replies</h3>
+
+                    <h1 id="successfulReplies">0</h1>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Escalated</h3>
+
+                    <h1 id="escalatedChats">0</h1>
+
+                </div>
+
+                <div class="card">
+
+                    <h3>Leads</h3>
+
+                    <h1 id="leadCount">0</h1>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- ================= Leads ================= -->
+
+        <section id="leads" class="page">
+
+            <h2>Captured Leads</h2>
+
+            <table class="lead-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Email</th>
+                        <th>Interest</th>
+
+                    </tr>
+
+                </thead>
+
+                <tbody id="leadTable">
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <!-- ================= Settings ================= -->
+
+        <section id="settings" class="page">
+
+            <h2>Settings</h2>
+
+            <button id="themeBtn">
+
+                🌙 Toggle Dark Mode
+
+            </button>
+
+            <button id="clearChatBtn">
+
+                🗑 Clear Chat
+
+            </button>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

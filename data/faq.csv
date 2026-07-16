@@ -1,0 +1,51 @@
+id,category,keywords,question,answer
+hello,hi,hey,greetings,assalam,salam,"Hello! Welcome to SafeX Solutions. How can I assist you today?","Greeting"
+
+good morning,morning,"Good morning! Welcome to SafeX Solutions. How may I help you?","Greeting"
+
+good evening,evening,"Good evening! How can I help you today?","Greeting"
+company,about,safex,introduction,"SafeX Solutions is a technology company specializing in AI solutions, web development, mobile applications, business automation, and custom software development.","Company"
+
+what is safex,who are you,"SafeX Solutions provides innovative software and AI-powered business solutions for organizations of all sizes.","Company"
+services,service,solutions,development,"We offer Web Development, Mobile App Development, AI Solutions, Machine Learning, Business Automation, Cloud Solutions, UI/UX Design, and Custom Software Development.","Services"
+
+website,web development,web app,portal,"Yes, we design and develop responsive, secure, and modern websites for businesses and organizations.","Services"
+
+mobile app,android,ios,flutter,"Yes, we develop Android and iOS mobile applications using modern technologies.","Services"
+
+artificial intelligence,ai,machine learning,automation,"We provide AI-powered applications, machine learning solutions, predictive analytics, and business automation.","Services"
+
+chatbot,whatsapp bot,telegram bot,"Yes, we build intelligent chatbots and WhatsApp Business automation solutions.","Services"
+
+cloud,hosting,server,"We provide cloud deployment, hosting solutions, and server management services.","Services"
+price,cost,charges,pricing,quotation,quote,"Project pricing depends on your requirements. Please share your project details, and we'll provide a customized quotation.","Pricing"
+
+consultation,meeting,"We offer an initial consultation to understand your project requirements before providing an estimate.","Pricing"
+internship,intern,career,job,hiring,"Yes, SafeX offers internship opportunities based on current openings. Please send your CV to our HR team or check our careers page.","Career"
+
+apply,resume,cv,"You can apply by sending your updated CV and portfolio to our official recruitment email.","Career"
+
+skills,requirements,"Basic knowledge of programming, problem-solving, teamwork, and relevant technologies is preferred.","Career"
+python,django,flask,"Yes, we develop backend systems using Python, Django, and Flask.","Technology"
+
+react,javascript,node,nodejs,"We build modern frontend and backend applications using React.js, JavaScript, and Node.js.","Technology"
+
+database,mysql,mongodb,postgresql,"We work with MySQL, PostgreSQL, MongoDB, and other modern database systems.","Technology"
+
+html,css,frontend,"We build responsive frontend interfaces using HTML, CSS, JavaScript, React, and Bootstrap.","Technology"
+contact,email,phone,address,"You can contact SafeX Solutions through our official email, phone number, or website. Our team will respond as soon as possible.","Contact"
+
+office,location,"Our office location and business contact information are available on our official website.","Contact"
+
+support,customer care,"Our support team is available during business hours to assist you.","Contact"
+hours,time,office hours,working hours,"Our business hours are Monday to Friday from 9:00 AM to 6:00 PM.","Information"
+
+weekend,saturday,sunday,"Weekend availability depends on project requirements. Please contact us for urgent support.","Information"
+erp,lms,crm,"Yes, we develop ERP, LMS, CRM, HRMS, and other enterprise software solutions.","Projects"
+
+ecommerce,shopping,"Yes, we build secure and scalable e-commerce platforms.","Projects"
+
+portfolio,personal website,"Yes, we design professional portfolio websites for students, freelancers, and companies.","Projects"
+thanks,thank you,"You're welcome! If you have any more questions, feel free to ask.","General"
+
+bye,goodbye,see you,"Thank you for contacting SafeX Solutions. Have a wonderful day!","General"
