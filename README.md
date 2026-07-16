@@ -195,31 +195,7 @@ data/leads.csv
 
 ---
 
-# 📸 Screenshots
 
-## Home Dashboard
-
-![Home](screenshots/home.png)
-
----
-
-## Chat Interface
-
-![Chat](screenshots/chat.png)
-
----
-
-## Analytics Dashboard
-
-![Analytics](screenshots/analytics.png)
-
----
-
-## Leads Dashboard
-
-![Leads](screenshots/leads.png)
-
----
 
 # ▶️ Installation
 
@@ -285,13 +261,17 @@ http://127.0.0.1:5000
 
 # 👨‍💻 Author
 
-**Nasir Sajjad**
+**Said Ul Amin**
 
 Computer Science Student
 
 SafeX Solutions Internship Project
 
-GitHub: https://github.com/YOUR_USERNAME
+Portfolio: https://saidulamin.dev/
+
+Linkedin: https://linkedin.com/in/said-ul-amin062
+
+GitHub: https://github.com/Said_87
 
 ---
 
